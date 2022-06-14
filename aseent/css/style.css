@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+}
+.header{
+    background-color: black;
+}
+.header h1{
+    margin: 0%;
+    color: lightgrey;
+    text-align: center;
+}
+.main-image{
+    height: 700px;
+}
+.main-image img{
+    width: 100%;
+}
+.main-content{
+    margin: auto;
+    background-color: black;
+    color: lightgray;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+}
+.main-content-ps{
+    width: 40%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.main-content-p, .main-content-p-frist{
+width: 100%;
+}
+.main-content-p-frist{
+    margin-bottom: 1rem;
+}
+.img-content{
+    display: inline-block;
+    width: 55%;
+}
+.main-content-iguana-img{
+    margin-right: 10%;
+    width: 49%;
+}
+.features{
+    background-color: dimgray;
+    color: lightgray;
+    padding: 3em;
+    text-align: center;
+}
+.features h2{
+    margin: 0%;
+}
+.features-icon{
+    width: 33%;
+    display: inline-block;
+    font-size: 1.6em;
+    padding-top: 3%;
+}
+.features-icon i{
+    display: block;
+    padding: 0.5em;
+}
+.photo-content{
+    padding: 2em 4em;
+    background-color: black;
+}
+.imgs{
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+}
+.imgs img{
+    height: 200px;
+}
+footer{
+    line-height: 5em;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+
+    }
